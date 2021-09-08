@@ -1,0 +1,87 @@
+.header {
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+.left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+.right {
+  float: left;
+}
+.right-top {
+  width: 250px;
+  height: 100px;
+  background-color: #0093b7;
+}
+.right-lower-left {
+  width: 100px;
+  height: 150px;
+  background-color: #dbd403;
+  float: left;
+}
+.right-lower-right {
+  float: left;
+}
+.right-lower-right-top {
+  width: 150px;
+  height: 50px;
+  background-color: #ff9e6b;
+}
+.right-lower-right-lower {
+  width: 150px;
+  height: 100px;
+  background-color: #8c2727;
+}
+.footer {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
+
+/* 2個目 */
+
+.left_R {
+  float: left;
+}
+.right_R {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+.left-top-left_R {
+  width: 100px;
+  height: 150px;
+  background-color: #dbd403;
+  float: left;
+}
+.left-top-right_R {
+  float: left;
+}
+.left-top-right-top_R {
+  width: 150px;
+  height: 50px;
+  background-color: #8c2727;
+}
+.left-top-right-lower_R {
+  width: 150px;
+  height: 100px;
+  background-color: #ff9e6b;
+}
+.left-lower_R {
+  width: 250px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
